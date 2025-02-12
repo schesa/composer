@@ -52,3 +52,53 @@ Example questions:
 - "Can you help me with JavaScript?"
 
 ## 🛠️ Project Structure
+
+```
+composer/
+├── chatbot.py      # Core chatbot logic
+├── main.py         # CLI interface
+├── Dockerfile      # Docker configuration
+├── requirements.txt # Python dependencies
+└── run.sh          # Startup script
+```
+
+## 🔧 Customization
+
+You can extend the chatbot's capabilities by modifying the `programming_responses` dictionary in `chatbot.py`. Add new topics and responses in this format:
+
+```python
+self.programming_responses = {
+    "your_topic": "Your detailed response here!",
+}
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature/improvement`)
+6. Create a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Built with Python 3.9
+- Containerized with Docker
+- Inspired by interactive programming assistants
+
+## 📞 Support
+
+If you encounter any issues or have questions, please:
+1. Check the existing issues or create a new one
+2. Provide detailed information about your environment
+3. Include steps to reproduce the problem
+
+---
+Made with ❤️ by [Your Name]
