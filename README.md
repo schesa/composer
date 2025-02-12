@@ -1,6 +1,6 @@
-# 🤖 Interactive Programming Assistant
+# 🤖 AISpace
 
-A Docker-containerized chatbot that helps answer programming-related questions. Built with Python, this interactive assistant can discuss various programming topics including Python, JavaScript, Java, Docker, and Git.
+A collection of AI-powered tools and assistants. Currently featuring an interactive programming assistant built with Python and Docker.
 
 ## 🌟 Features
 
@@ -23,8 +23,8 @@ A Docker-containerized chatbot that helps answer programming-related questions. 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/programming-assistant.git
-   cd programming-assistant
+   git clone https://github.com/schesa/composer.git
+   cd composer
    ```
 
 2. Make the run script executable:
@@ -101,4 +101,4 @@ If you encounter any issues or have questions, please:
 3. Include steps to reproduce the problem
 
 ---
-Made with ❤️ by [Your Name]
+Made with 🤖
